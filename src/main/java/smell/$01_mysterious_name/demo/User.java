@@ -10,4 +10,8 @@ public class User {
 
     String friendList =  "<ul><li>aaa</li><li>bbb</li></ul>"; // 朋友视图列表
     User[] friendsList; // 朋友列表
+
+    public void setAd(String param1) {
+        this.ad = param1;
+    }
 }
