@@ -1,4 +1,4 @@
-package smell.$15_sepculative_generality;
+package smell.$15_speculative_generality;
 
 import java.util.HashMap;
 import java.util.Map;
