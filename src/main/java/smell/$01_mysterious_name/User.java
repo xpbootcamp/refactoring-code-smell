@@ -1,4 +1,4 @@
-package smell.$01_mysterious_name.demo;
+package smell.$01_mysterious_name;
 
 public class User {
 
