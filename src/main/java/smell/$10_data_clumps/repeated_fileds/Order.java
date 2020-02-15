@@ -16,7 +16,3 @@ public class Order {
     }
 }
 
-// stock keeping unit 库存保有单位
-class Sku {
-
-}
