@@ -5,7 +5,7 @@ import java.util.List;
 
 public class IPChecker {
 
-    public boolean checkIfIpValid(String ipAddress) {
+    public boolean checkIP(String ipAddress) {
         if (ipAddress.isEmpty()) {
             return false;
         }
