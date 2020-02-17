@@ -1,4 +1,4 @@
-package smell.$6_mutable_data;
+package smell.$06_mutable_data;
 
 import java.util.HashMap;
 import java.util.Map;
