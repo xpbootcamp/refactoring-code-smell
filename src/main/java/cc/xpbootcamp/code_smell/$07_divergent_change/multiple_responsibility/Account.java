@@ -1,20 +1,14 @@
 package smell.$07_divergent_change.multiple_responsibility;
 
-public class Account {
+import lombok.Getter;
 
+@Getter
+public class Account {
     private int accountNumber;
     private double balance = 0;
 
     public Account(int accountNumber) {
         this.accountNumber = accountNumber;
-    }
-
-    public int getAccountNumber() {
-        return accountNumber;
-    }
-
-    public double getBalance() {
-        return balance;
     }
 
     public void credit(double amount) {
@@ -26,8 +20,12 @@ public class Account {
     }
 
     public String toXml() {
-        return "<account><id>" + Integer.toString(getAccountNumber())
-                + "</id><balance>" + Double.toString(getBalance())
+        return "<account><id>" + getAccountNumber()
+                + "</id><balance>" + getBalance()
                 + "</balance></account>";
+    }
+
+    public String toText() {
+        return "Account: " + accountNumber + "\nBalance: " + balance;
     }
 }
