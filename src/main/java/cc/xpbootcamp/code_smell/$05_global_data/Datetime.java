@@ -1,4 +1,4 @@
-package smell.$05_global_data;
+package cc.xpbootcamp.code_smell.$05_global_data;
 
 import java.time.LocalDateTime;
 

@@ -1,4 +1,4 @@
-package smell.$09_feature_envy;
+package cc.xpbootcamp.code_smell.$09_feature_envy;
 
 import java.util.List;
 

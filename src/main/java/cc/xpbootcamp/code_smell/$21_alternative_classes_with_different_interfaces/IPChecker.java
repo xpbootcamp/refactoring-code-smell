@@ -1,4 +1,4 @@
-package smell.$21_alternative_classes_with_different_interfaces;
+package cc.xpbootcamp.code_smell.$21_alternative_classes_with_different_interfaces;
 
 import java.util.Arrays;
 import java.util.List;

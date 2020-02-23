@@ -1,4 +1,4 @@
-package smell.$01_mysterious_name;
+package cc.xpbootcamp.code_smell.$01_mysterious_name;
 
 public class User {
 

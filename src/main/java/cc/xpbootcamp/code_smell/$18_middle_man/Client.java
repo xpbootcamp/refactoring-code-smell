@@ -1,4 +1,4 @@
-package smell.$18_middle_man;
+package cc.xpbootcamp.code_smell.$18_middle_man;
 
 public class Client {
     public static void main(String[] args) {

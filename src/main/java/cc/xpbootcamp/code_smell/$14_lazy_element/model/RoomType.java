@@ -1,4 +1,4 @@
-package smell.$14_lazy_element.model;
+package cc.xpbootcamp.code_smell.$14_lazy_element.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

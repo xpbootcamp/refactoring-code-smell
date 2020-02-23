@@ -1,4 +1,4 @@
-package smell.$11_primitive_obsesion;
+package cc.xpbootcamp.code_smell.$11_primitive_obsesion;
 import lombok.Data;
 
 @Data

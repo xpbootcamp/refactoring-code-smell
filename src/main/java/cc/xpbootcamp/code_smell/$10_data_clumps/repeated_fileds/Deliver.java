@@ -1,4 +1,4 @@
-package smell.$10_data_clumps.repeated_fileds;
+package cc.xpbootcamp.code_smell.$10_data_clumps.repeated_fileds;
 
 public class Deliver {
     private int deliverNumber;

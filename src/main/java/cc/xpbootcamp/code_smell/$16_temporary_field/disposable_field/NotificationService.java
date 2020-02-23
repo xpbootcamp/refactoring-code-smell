@@ -1,6 +1,4 @@
-package smell.$16_temporary_field.disposable_field;
-
-import javax.management.Notification;
+package cc.xpbootcamp.code_smell.$16_temporary_field.disposable_field;
 
 public class NotificationService {
     private static NotificationService instance;

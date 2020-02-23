@@ -1,4 +1,4 @@
-package smell.$17_message_chains;
+package cc.xpbootcamp.code_smell.$17_message_chains;
 
 import java.util.List;
 

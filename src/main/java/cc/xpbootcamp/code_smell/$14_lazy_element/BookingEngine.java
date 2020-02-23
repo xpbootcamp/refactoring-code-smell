@@ -1,10 +1,10 @@
-package smell.$14_lazy_element;
+package cc.xpbootcamp.code_smell.$14_lazy_element;
 
+import cc.xpbootcamp.code_smell.$14_lazy_element.model.Hotel;
+import cc.xpbootcamp.code_smell.$14_lazy_element.model.Reservation;
+import cc.xpbootcamp.code_smell.$14_lazy_element.model.Room;
+import cc.xpbootcamp.code_smell.$14_lazy_element.util.DateUtil;
 import lombok.AllArgsConstructor;
-import smell.$14_lazy_element.model.Hotel;
-import smell.$14_lazy_element.model.Reservation;
-import smell.$14_lazy_element.model.Room;
-import smell.$14_lazy_element.util.DateUtil;
 
 import java.util.*;
 import java.util.stream.IntStream;

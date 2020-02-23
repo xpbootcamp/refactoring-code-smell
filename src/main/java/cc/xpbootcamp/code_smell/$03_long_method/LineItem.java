@@ -1,4 +1,4 @@
-package smell.$03_long_method;
+package cc.xpbootcamp.code_smell.$03_long_method;
 
 public class LineItem {
 	private String description;

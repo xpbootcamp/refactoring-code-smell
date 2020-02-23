@@ -1,4 +1,4 @@
-package smell.$24_comments;
+package cc.xpbootcamp.code_smell.$24_comments;
 
 public class Movie {
 

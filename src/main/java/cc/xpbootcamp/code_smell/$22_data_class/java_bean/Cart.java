@@ -1,4 +1,4 @@
-package smell.$22_data_class.java_bean;
+package cc.xpbootcamp.code_smell.$22_data_class.java_bean;
 
 import java.util.List;
 

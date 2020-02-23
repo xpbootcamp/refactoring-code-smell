@@ -1,6 +1,6 @@
-package smell.$14_lazy_element;
+package cc.xpbootcamp.code_smell.$14_lazy_element;
 
-import smell.$14_lazy_element.model.Room;
+import cc.xpbootcamp.code_smell.$14_lazy_element.model.Room;
 
 import java.util.Date;
 

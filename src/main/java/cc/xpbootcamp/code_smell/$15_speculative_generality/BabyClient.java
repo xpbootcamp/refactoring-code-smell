@@ -1,4 +1,4 @@
-package smell.$15_speculative_generality;
+package cc.xpbootcamp.code_smell.$15_speculative_generality;
 
 import java.util.logging.Logger;
 

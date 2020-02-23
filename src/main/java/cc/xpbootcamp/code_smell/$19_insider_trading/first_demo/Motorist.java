@@ -1,4 +1,4 @@
-package smell.$19_insider_trading.first_demo;
+package cc.xpbootcamp.code_smell.$19_insider_trading.first_demo;
 
 public class Motorist {
 

@@ -1,4 +1,4 @@
-package smell.$12_repeated_switch;
+package cc.xpbootcamp.code_smell.$12_repeated_switch;
 
 import java.util.HashMap;
 import java.util.Map;

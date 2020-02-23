@@ -1,4 +1,4 @@
-package smell.$14_lazy_element.util;
+package cc.xpbootcamp.code_smell.$14_lazy_element.util;
 
 import java.util.Calendar;
 import java.util.Date;

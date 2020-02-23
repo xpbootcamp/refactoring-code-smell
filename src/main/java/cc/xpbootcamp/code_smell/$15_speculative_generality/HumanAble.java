@@ -1,4 +1,4 @@
-package smell.$15_speculative_generality;
+package cc.xpbootcamp.code_smell.$15_speculative_generality;
 
 public interface HumanAble {
     void crawl();

@@ -1,4 +1,4 @@
-package smell.$06_mutable_data;
+package cc.xpbootcamp.code_smell.$06_mutable_data;
 
 import lombok.Getter;
 import lombok.Setter;

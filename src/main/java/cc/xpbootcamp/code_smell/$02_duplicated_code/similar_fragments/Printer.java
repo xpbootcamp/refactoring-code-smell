@@ -1,4 +1,4 @@
-package smell.$02_duplicated_code.similar_fragments;
+package cc.xpbootcamp.code_smell.$02_duplicated_code.similar_fragments;
 
 public class Printer {
     private final StringBuilder stringBuilder;

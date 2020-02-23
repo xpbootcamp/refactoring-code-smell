@@ -1,4 +1,4 @@
-package smell.$04_long_parameter_list.too_many_params;
+package cc.xpbootcamp.code_smell.$04_long_parameter_list.too_many_params;
 
 import java.util.Date;
 

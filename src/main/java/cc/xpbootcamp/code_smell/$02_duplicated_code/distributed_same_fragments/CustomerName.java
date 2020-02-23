@@ -1,4 +1,4 @@
-package smell.$02_duplicated_code.distributed_same_fragments;
+package cc.xpbootcamp.code_smell.$02_duplicated_code.distributed_same_fragments;
 
 public class CustomerName {
     private String firstName;

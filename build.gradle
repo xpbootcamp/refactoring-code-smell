@@ -1,6 +1,15 @@
-plugins {
-    id 'java'
+buildscript {
+    repositories {
+        maven {
+            url 'https://plugins.gradle.org/m2/'
+        }
+    }
+    dependencies {
+        classpath 'io.freefair.gradle:lombok-plugin:3.8.4'
+    }
 }
+apply plugin: "io.freefair.lombok"
+apply plugin: "java"
 
 group 'com.thoughtworks'
 version '1.0-SNAPSHOT'

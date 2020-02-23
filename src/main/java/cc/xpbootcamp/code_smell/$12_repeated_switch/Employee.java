@@ -1,4 +1,4 @@
-package smell.$12_repeated_switch;
+package cc.xpbootcamp.code_smell.$12_repeated_switch;
 
 public class Employee {
     static final int ENGINEER = 0;

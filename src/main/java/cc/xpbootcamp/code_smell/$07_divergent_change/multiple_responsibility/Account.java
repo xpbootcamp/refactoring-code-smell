@@ -1,4 +1,4 @@
-package smell.$07_divergent_change.multiple_responsibility;
+package cc.xpbootcamp.code_smell.$07_divergent_change.multiple_responsibility;
 
 import lombok.Getter;
 

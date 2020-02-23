@@ -1,4 +1,4 @@
-package smell.$13_loops.filter;
+package cc.xpbootcamp.code_smell.$13_loops.filter;
 
 import java.util.ArrayList;
 import java.util.List;

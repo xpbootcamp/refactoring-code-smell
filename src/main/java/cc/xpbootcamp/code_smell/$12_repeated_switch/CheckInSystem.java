@@ -1,9 +1,7 @@
-package smell.$12_repeated_switch;
+package cc.xpbootcamp.code_smell.$12_repeated_switch;
 
 import java.util.HashMap;
 import java.util.Map;
-
-import static smell.$12_repeated_switch.Employee.*;
 
 public class CheckInSystem {
     private Map<String, String> checkInRecords = new HashMap<>();
@@ -13,13 +11,13 @@ public class CheckInSystem {
         int type = employee.getType();
         String record;
         switch (type) {
-            case ENGINEER:
+            case Employee.ENGINEER:
                 record = "I am an Engineer, My Name is" + employee.getName();
                 break;
-            case SALESMAN:
+            case Employee.SALESMAN:
                 record = "I am a Salesman, My Name is" + employee.getName();
                 break;
-            case MANAGER:
+            case Employee.MANAGER:
                 record = "I am a Manager, My Name is" + employee.getName();
                 break;
             default:

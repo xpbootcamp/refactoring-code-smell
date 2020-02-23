@@ -1,4 +1,4 @@
-package smell.$05_global_data;
+package cc.xpbootcamp.code_smell.$05_global_data;
 
 public class Application {
     public static int count = 0;

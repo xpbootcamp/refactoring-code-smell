@@ -1,4 +1,4 @@
-package smell.$20_large_class;
+package cc.xpbootcamp.code_smell.$20_large_class;
 
 import java.util.*;
 

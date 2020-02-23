@@ -1,4 +1,4 @@
-package smell.$08_shotgun_surgery;
+package cc.xpbootcamp.code_smell.$08_shotgun_surgery;
 
 public class Account {
     private String accountNumber;
