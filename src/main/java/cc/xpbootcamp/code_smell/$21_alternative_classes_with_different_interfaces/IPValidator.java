@@ -11,5 +11,4 @@ public class IPValidator {
                 + "(1\\d{2}|2[0-4]\\d|25[0-5]|[1-9]\\d|\\d)$";
         return ipAddress.matches(regex);
     }
-
 }

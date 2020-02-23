@@ -10,5 +10,5 @@ public class Product {
     private double purchasePrice;
     private String purchaseCurrency;
     private double sellPrice;
-    private String SellCurrency;
+    private String sellCurrency;
 }

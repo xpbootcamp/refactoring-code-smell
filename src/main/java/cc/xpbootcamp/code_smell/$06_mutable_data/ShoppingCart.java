@@ -1,33 +1,18 @@
 package smell.$06_mutable_data;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class ShoppingCart {
+    @Getter @Setter
     private int itemsCount;
+    @Getter @Setter
     private double totalPrice;
+    @Getter
     private Map<Item, Integer> items = new HashMap<>();
-
-    public int getItemsCount() {
-        return this.itemsCount;
-    }
-
-    public void setItemsCount(int itemsCount) {
-        this.itemsCount = itemsCount;
-    }
-
-    public double getTotalPrice() {
-        return this.totalPrice;
-    }
-
-    public void setTotalPrice(double totalPrice) {
-        this.totalPrice = totalPrice;
-    }
-
-    // Mutable data here
-    public Map<Item, Integer> getItems() {
-        return this.items;
-    }
 
     public void addItem(Item item) {
         if (items.containsKey(item)) {
