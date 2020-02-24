@@ -1,4 +1,4 @@
-package cc.xpbootcamp.code_smell.$16_temporary_field.disposable_field;
+package cc.xpbootcamp.code_smell.$16_temporary_field.unecessary_field;
 
 import lombok.Data;
 import java.util.Date;
