@@ -20,6 +20,10 @@ public class User {
         this.salt = salt;
     }
 
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
     public void sendMessage(String message) {
         if (isFrozen) {
             throw new IllegalStateException();
@@ -35,10 +39,7 @@ public class User {
         if (isFrozen) {
             throw new IllegalStateException();
         }
-        if (!password.isEmpty()) {
-            this.password = Encryption.encryptSHA(password, salt);
-        }
-        throw new IllegalArgumentException();
+        this.password = Encryption.encryptSHA("123456", salt);
     }
 
     public String getName() {
