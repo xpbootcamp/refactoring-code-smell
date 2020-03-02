@@ -11,7 +11,7 @@ buildscript {
 apply plugin: "io.freefair.lombok"
 apply plugin: "java"
 
-group 'com.thoughtworks'
+group 'cn.xpbootcamp'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
