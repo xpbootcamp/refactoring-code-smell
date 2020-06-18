@@ -35,5 +35,4 @@ public class Employee {
                 throw new RuntimeException("Invalid employee");
         }
     }
-
 }

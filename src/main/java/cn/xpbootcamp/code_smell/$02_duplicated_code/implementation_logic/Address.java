@@ -1,4 +1,4 @@
-package cn.xpbootcamp.code_smell.$02_duplicated_code.distributed_same_fragments;
+package cn.xpbootcamp.code_smell.$02_duplicated_code.implementation_logic;
 
 import lombok.Data;
 
